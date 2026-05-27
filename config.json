@@ -1,0 +1,6 @@
+{
+  "baseUrl": "你的api地址",
+  "apiKey": "你的token",
+  "model": "模型名称",
+  "workingDir": "工作目录"
+}

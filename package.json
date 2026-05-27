@@ -1,0 +1,19 @@
+{
+  "name": "codebuddy-launcher",
+  "version": "2.0.0",
+  "description": "CodeBuddy 快速启动器 - 支持文件夹选择",
+  "main": "launcher.js",
+  "bin": "launcher.js",
+  "scripts": {
+    "start": "node launcher.js",
+    "build": "pkg launcher.js --targets node22-win-x64 --output codebuddy-launcher.exe"
+  },
+  "pkg": {
+    "assets": [
+      "config.json"
+    ]
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
